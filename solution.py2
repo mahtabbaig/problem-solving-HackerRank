@@ -22,4 +22,16 @@ elif(n % 2==0 and 6<=n<=20):
 elif(n % 2==0 and n>20):
     print("Not Weird")
 
+3.#Asked Chatgpt for question  based on(condition):
+
+score=67
+if(score<40):
+        print("fail")
+elif(40<=score<60):
+        print("pass") 
+elif(60<=score<80):
+        print("merit") 
+else:
+        print("distinction")
+
       
