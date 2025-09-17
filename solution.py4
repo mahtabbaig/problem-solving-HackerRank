@@ -1,0 +1,39 @@
+1.
+dict={
+    "table":["a piece of furniture","list of facts & figures" ],
+    "cat":"a small animal",
+
+}
+print(dict)
+
+2.
+classrooms={"python","java","C","C++","javascript","java","python","java","C++","python"}
+print(len(classrooms))
+
+3.
+marks={}
+x=int(input("enter phy:"))
+marks.update({"phy":x})
+
+x=int(input("enter chem:"))
+marks.update({"chem":x})
+
+x=int(input("enter mat:"))
+marks.update({"mat":x})
+
+print(marks)
+
+4.
+values={
+    ("int",9),
+    ("float",9.0),
+     
+}
+print(values)
+     
+        #or
+values={9,"9.0"}
+print(values)
+
+
+
