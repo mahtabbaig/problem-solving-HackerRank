@@ -36,8 +36,24 @@ while i<len(num):
     else:
         print("not found")
 
-        
+
         i +=1
+
+#for loops:
+1.
+num=[1,4,9,16,25,36,49,64,81,100]  
+for value in num:
+    print(value)      
+
+2.
+num=[1,4,9,16,25,36,49,64,81,100,36]  
+x=36
+i=0
+for value in num:
+    if(value==x):
+
+     print("number found")
+     i+=1
     
 
 
