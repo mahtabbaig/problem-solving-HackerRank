@@ -54,6 +54,42 @@ for value in num:
 
      print("number found")
      i+=1
+
+# Range:
+1.
+for i in range(1,101):
+    print(i)
+
+2.
+for i in range(100,0,-1)  :
+    print(i)  
+
+3.
+n=int(input("enter a number:"))  
+for i in range(1,11)  :
+    print(n*i)
+
+
+# extra loops problems:
+1.
+n=6
+sum=0
+i=1
+while i<=n:
+    sum+=i
+    i+=1
+    print("total =",sum)   
+
+2.
+n=10
+fact=1
+for i in range(1,11):
+    fact*=i
+    
+    print("total=",fact)
+
+
+
     
 
 
