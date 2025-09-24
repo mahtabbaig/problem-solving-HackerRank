@@ -27,5 +27,14 @@ for _ in range(n):
     elif line[0]=="pop":
         first.pop()
     elif line[0]=="reverse":
-        first.reverse()           
+        first.reverse()   
+
+3.
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    
+result=(set(arr))
+result.sort(reverse=True)
+print(result[1])                
 
